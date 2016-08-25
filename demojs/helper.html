@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>helper</title>
+</head>
+<body>
+	<script src='../js/helper.js?v=1'></script>
+	<script>
+		// 窗口显示隐藏状态
+		(function() {
+			win.visibilityChange(function(e, isHidden){
+				if(isHidden) {
+					document.title = '隐藏窗口';
+				}
+				else {
+					document.title = '显示窗口';
+				}
+			});
+		})();
+	</script>
+</body>
+</html>
