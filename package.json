@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dan0cc/instability/issues"
   },
-  "homepage": "https://github.com/dan0cc/instability#readme"
+  "homepage": "https://github.com/dan0cc/instability#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
